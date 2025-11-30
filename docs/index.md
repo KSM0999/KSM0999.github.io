@@ -3,7 +3,7 @@ layout: default
 title: Accueil
 ---
 
-# Bienvenue
+# Welcome
 
 - [About](about.html)
 - [Contact](contact.html)
