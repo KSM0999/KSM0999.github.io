@@ -2,7 +2,8 @@
 layout: default
 title: Accueil
 ---
-# Hello
+
+# Bienvenue
 
 - [About](about.html)
 - [Contact](contact.html)
