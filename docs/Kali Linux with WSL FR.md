@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Kali Linux with WSL
+title: Tutoriel Kali Linux with WSL
 ---
 
 1) Ouvrez un terminal PowerShell en mode **administrateur**, puis tapez les commandes suivantes sous Windows 11.
