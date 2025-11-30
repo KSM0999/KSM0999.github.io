@@ -7,4 +7,4 @@ title: Accueil
 
 - [About](about.md)
 - [Contact](contact.md)
-- [Kali Linux with WSL](Kali Linux with WSL.md)
+- [Kali Linux with WSL](Kali Linux with WSL FR.md)
