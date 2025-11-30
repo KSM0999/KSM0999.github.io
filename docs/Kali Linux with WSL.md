@@ -27,5 +27,8 @@ sudo apt update
 sudo apt install -y kali-win-kex
 ```
 
-5) Create a Kali Linux GUI shortcut in your terminal
+5) To create a Kali Linux GUI shortcut in your terminal, open your terminal settings
 
+![[Pasted image 20251201001843.png]]
+
+6) 
