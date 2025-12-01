@@ -2,10 +2,8 @@
 layout: default
 title: GUI Kali Linux avec WSL
 ---
-La documentation [suivante](https://learn.microsoft.com/en-us/windows/wsl/install) de microsoft définie les étapes d'installation d'une machine virtuelle Linux via la fonctionnalité WSL de Windows. Ce court tutoriel s'y appuie afin de montrer comment installer une machine virtuelle Kali Linux avec une interface graphique sur votre système hôte Windows sans passer par une solution tiers d'éditeurs comme WMWare ou Virtual Box d'Oracle.
-
----
-
+>[!note]
+>La documentation [suivante](https://learn.microsoft.com/en-us/windows/wsl/install) de microsoft définie les étapes d'installation d'une machine virtuelle Linux via la fonctionnalité WSL de Windows. Ce court tutoriel s'y appuie afin de montrer comment installer une machine virtuelle Kali Linux avec une interface graphique sur votre système hôte Windows sans passer par une solution tiers d'éditeurs comme WMWare ou Virtual Box d'Oracle.
 
 1) Ouvrez un terminal PowerShell en mode **administrateur**, puis tapez les commandes suivantes sous Windows 11.
 
@@ -53,9 +51,8 @@ C:\WINDOWS\system32\wsl.exe --distribution-id {ID} kex --wtstart -s
 
 Vous pouvez modifier le mode d'affichage de Win-kex en vous appuyant sur cette documentation de [kali.org](https://www.kali.org/docs/wsl/win-kex-win/).
 
-----
+>[!note]
+>On note que l'avantage du WSL est la rapidité et simplicité avec laquelle on peut accéder à une VM Linux sans passer par du dual boot. Cependant, WSL ne propose pas de fonctionnalité de snapshot pourtant utile pour un pentester car lui permettant de revenir à une configuration de base sans avoir à flush l'entièreté de la machine virtuelle.
+>
+>En définitive, il est certainement plus judicieux d'utiliser la fonctionnalité WSL avec une machine virtuelle Ubuntu sur laquelle serait installé [Exegol](https://exegol.com/).
 
-
-On note que l'avantage du WSL est la rapidité et simplicité avec laquelle on peut accéder à une VM Linux sans passer par du dual boot. Cependant, WSL ne propose pas de fonctionnalité de snapshot pourtant utile pour un pentester car lui permettant de revenir à une configuration de base sans avoir à flush l'entièreté de la machine virtuelle.
-
-En définitive, il est certainement plus judicieux d'utiliser la fonctionnalité WSL avec une machine virtuelle Ubuntu sur laquelle serait installé [Exegol](https://exegol.com/).
