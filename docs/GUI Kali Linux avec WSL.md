@@ -4,7 +4,7 @@ title: GUI Kali Linux avec WSL
 ---
 >La documentation [suivante](https://learn.microsoft.com/en-us/windows/wsl/install) de microsoft définie les étapes d'installation d'une machine virtuelle Linux via la fonctionnalité WSL de Windows. Ce court tutoriel s'y appuie afin de montrer comment installer une machine virtuelle Kali Linux avec une interface graphique sur votre système hôte Windows sans passer par une solution tiers d'éditeurs comme WMWare ou Virtual Box d'Oracle.
 
-1) Ouvrez un terminal PowerShell en mode **administrateur**, puis tapez les commandes suivantes sous Windows 11.
+1) Ouvrez un terminal PowerShell en tant qu'**administrateur**, puis tapez les commandes suivantes sous Windows 11.
 
 ```PowerShell
 wsl.exe --list --online
