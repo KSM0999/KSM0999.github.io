@@ -6,6 +6,7 @@ La documentation [suivante](https://learn.microsoft.com/en-us/windows/wsl/instal
 
 ---
 
+
 1) Ouvrez un terminal PowerShell en mode **administrateur**, puis tapez les commandes suivantes sous Windows 11.
 
 ```PowerShell
@@ -53,6 +54,7 @@ C:\WINDOWS\system32\wsl.exe --distribution-id {ID} kex --wtstart -s
 Vous pouvez modifier le mode d'affichage de Win-kex en vous appuyant sur cette documentation de [kali.org](https://www.kali.org/docs/wsl/win-kex-win/).
 
 ----
+
 
 On note que l'avantage du WSL est la rapidité et simplicité avec laquelle on peut accéder à une VM Linux sans passer par du dual boot. Cependant, WSL ne propose pas de fonctionnalité de snapshot pourtant utile pour un pentester car lui permettant de revenir à une configuration de base sans avoir à flush l'entièreté de la machine virtuelle.
 
