@@ -7,4 +7,5 @@ title: Accueil
 
 - [About](about.md)
 - [Contact](contact.md)
-- [Kali Linux with WSL](Kali Linux with WSL FR.md)
+- [Micro cURL cheatsheet](cURL short cheatsheet)
+
