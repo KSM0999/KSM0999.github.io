@@ -8,6 +8,10 @@ Lance un curl vers une application HTTP et imprime la sortie dans output.html :
 curl -s -o http://$TARGET/index.html -o output.html -i
 ```
 
+	-s : silent mode, garde seulement en sortie la réponse à la requête, pas les messages d'erreurs ou les informations de progression
+	-o : chemin ou nom du fichier d'output.
+	-i : inclure les headers de la réponse dans l'output et pas seulement le contenu.
+
 Lance un curl vers une application HTTPS en ignorant les certificats :
 
 ```bash
