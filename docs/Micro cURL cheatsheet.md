@@ -8,9 +8,9 @@ title: cURL cheatsheet
 curl -s -o http://$TARGET/index.html -o output.html -i
 ```
 
-	-s : silent mode, garde seulement en sortie la réponse à la requête, pas les messages d'erreurs ou les informations de progression
-	-o : chemin ou nom du fichier d'output.
-	-i : inclure les headers de la réponse dans l'output et pas seulement le contenu.
+	-s : silent mode.
+	-o : output file path.
+	-i : include headers in response.
 
 # Lance un curl vers une application HTTPS en ignorant les certificats :
 
