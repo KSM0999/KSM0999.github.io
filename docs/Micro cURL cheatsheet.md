@@ -31,15 +31,14 @@ curl -H 'Authorization: Basic DS3aYH4fUS=' -H 'Header: true' http://$TARGET/ -i
 
 	-H : "header name: value"
 
-## POST request specifiying a data content :
-
-```bash
-curl -X POST -L -d 'username=admin&password=admin' http://$TARGET/ -i
-```
-
 ## GET request specifying a cookie :
 
 ```bash
 curl -b 'PHPSESSID=dsfjdofij4dsifja3uhzd1' http://$TARGET/
 ```
 
+## POST request specifiying a data content :
+
+```bash
+curl -X POST -L -d 'username=admin&password=admin' http://$TARGET/ -i
+```
