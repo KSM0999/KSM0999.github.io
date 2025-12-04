@@ -3,7 +3,7 @@ layout: default
 title: cURL cheatsheet
 ---
 # Penetration tester's cURL cheatsheet
-## GET request to a HTTP web application
+## GET request to a HTTP web application :
 
 ```bash
 curl -s -o http://$TARGET/index.html -o output.html -i
@@ -13,7 +13,7 @@ curl -s -o http://$TARGET/index.html -o output.html -i
 	-o : output file path.
 	-i : include headers in response.
 
-## GET request to a HTTPS web application
+## GET request to a HTTPS web application :
 
 ```bash
 curl -s -k https://$TARGET/index.html -i
